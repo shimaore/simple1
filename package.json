@@ -1,0 +1,10 @@
+{
+  "name": "tsci",
+  "devDependencies": {
+    "@types/bun": "1.2.16",
+    "@types/react": "19.1.8",
+    "bun": "1.2.16",
+    "tscircuit": "0.0.496",
+    "typescript": "5.8.3"
+  }
+}
