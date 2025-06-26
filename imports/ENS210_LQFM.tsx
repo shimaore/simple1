@@ -24,7 +24,7 @@ export const ENS210_LQFM = (props: ChipProps<typeof pinLabels>) => {
         <smtpad portHints={["pin2"]} pcbX="0.475" pcbY="-0.917" width="0.400" height="0.600" shape="rect" />
         <smtpad portHints={["pin3"]} pcbX="0.475" pcbY="0.917" width="0.400" height="0.600" shape="rect" />
         <smtpad portHints={["pin4"]} pcbX="-0.475" pcbY="0.917" width="0.400" height="0.600" shape="rect" />
-        <smtpad portHints={["pin5"]} pcbX="0mm" pcbY="1.421-14mm" width="1.600" height="0.700" shape="rect" />
+        <smtpad portHints={["pin5"]} pcbX="0mm" pcbY="0mm" width="1.600" height="0.700" shape="rect" />
         <silkscreenpath route={[{"x":-1.076,"y":-1.076},{"x":-1.076,"y":1.076}]} />
         <silkscreenpath route={[{"x":1.076,"y":-1.076},{"x":1.076,"y":1.076}]} />
       </footprint>}

@@ -4,7 +4,7 @@ const testBoard = () => (
   <board
     width="20mm" height="30mm"
   >
-    <group pcbY={5} >
+    <subcircuit pcbY={5} autorouter="sequential-trace">
       <ENS210_LQFM name="U1"
         connections={{
           VDD: "J1.VDD",
@@ -21,8 +21,8 @@ const testBoard = () => (
         schX={-12} schY={0}
         pcbX={0} pcbY={5} pcbRotation={0}
       />
-    </group>
-    <group pcbY={-10}>
+    </subcircuit>
+    <subcircuit pcbY={-10} autorouter="sequential-trace">
       <A_470533000 name="J2"
         pcbRotation={180}
         connections={{
@@ -39,7 +39,7 @@ const testBoard = () => (
         schX={-12} schY={0}
         pcbX={0} pcbY={7} pcbRotation={0}
       />
-    </group>
+    </subcircuit>
   </board>
 )
 
