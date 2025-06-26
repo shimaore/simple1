@@ -1,5 +1,5 @@
 {
-  "name": "simple1",
+  "name": "simple1-v2",
   "devDependencies": {
     "@types/bun": "1.2.17",
     "@types/react": "19.1.8",
