@@ -1,5 +1,7 @@
 build:
-  npm exec tsci build
-  npm exec tsci snapshot -- -u --3d
+  bun i
+  bunx tsci build
+  bunx tsci snapshot -- -u --3d
 dev:
-  npm exec tsci dev
+  bun i
+  bunx tsci dev

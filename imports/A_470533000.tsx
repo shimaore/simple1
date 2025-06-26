@@ -12,20 +12,20 @@ export const A_470533000 = (props: ChipProps<typeof pinLabels>) => {
     <chip
       pinLabels={pinLabels}
       supplierPartNumbers={{
-  "jlcpcb": [
-    "C19795120"
-  ]
-}}
+        "jlcpcb": [
+          "C19795120"
+        ]
+      }}
       manufacturerPartNumber="A_470533000"
       footprint={<footprint>
-        <hole pcbX="-1.2700000000000955mm" pcbY="-1.4850046000000248mm" diameter="1.2499848mm" />
-<platedhole  portHints={["pin1"]} pcbX="3.8099999999999454mm" pcbY="0.6750114000000167mm" outerDiameter="1.7199864000000002mm" holeDiameter="1.0200131999999997mm" shape="circle" />
-<platedhole  portHints={["pin2"]} pcbX="1.2699999999998681mm" pcbY="0.6750114000000167mm" outerDiameter="1.7199864000000002mm" holeDiameter="1.0200131999999997mm" shape="circle" />
-<platedhole  portHints={["pin3"]} pcbX="-1.2700000000000955mm" pcbY="0.6750114000000167mm" outerDiameter="1.7199864000000002mm" holeDiameter="1.0200131999999997mm" shape="circle" />
-<platedhole  portHints={["pin4"]} pcbX="-3.810000000000059mm" pcbY="0.6750114000000167mm" outerDiameter="1.7199864000000002mm" holeDiameter="1.0200131999999997mm" shape="circle" />
-<silkscreenpath route={[{"x":-5.080000000000041,"y":2.2696488000000272},{"x":5.0799999999998136,"y":2.2696488000000272}]} />
-<silkscreenpath route={[{"x":-1.9940778000001274,"y":-1.864988599999947},{"x":-5.080000000000041,"y":-1.864988599999947}]} />
-<silkscreenpath route={[{"x":-5.080000000000041,"y":-1.864988599999947},{"x":-5.080000000000041,"y":3.9770114000000376},{"x":5.0799999999998136,"y":3.9770114000000376},{"x":5.0799999999998136,"y":-1.864988599999947},{"x":-0.5459222000001773,"y":-1.864988599999947}]} />
+        <hole pcbX="-1.270" pcbY="-1.485" diameter="1.250" />
+        <platedhole  portHints={["pin1"]} pcbX="3.810" pcbY="0.675" outerDiameter="1.720" holeDiameter="1.020" shape="circle" />
+        <platedhole  portHints={["pin2"]} pcbX="1.270" pcbY="0.675" outerDiameter="1.720" holeDiameter="1.020" shape="circle" />
+        <platedhole  portHints={["pin3"]} pcbX="-1.270" pcbY="0.675" outerDiameter="1.720" holeDiameter="1.020" shape="circle" />
+        <platedhole  portHints={["pin4"]} pcbX="-3.810" pcbY="0.675" outerDiameter="1.720" holeDiameter="1.020" shape="circle" />
+        <silkscreenpath route={[{"x":-5.080,"y":2.269},{"x":5.0800,"y":2.269}]} />
+        <silkscreenpath route={[{"x":-1.994,"y":-1.865},{"x":-5.080,"y":-1.865}]} />
+        <silkscreenpath route={[{"x":-5.080,"y":-1.865},{"x":-5.080,"y":3.977},{"x":5.080,"y":3.977},{"x":5.080,"y":-1.865},{"x":-0.545,"y":-1.865}]} />
       </footprint>}
       cadModel={{
         objUrl: "https://modelcdn.tscircuit.com/easyeda_models/download?uuid=9a93067adc7a4c82860f56e3024924ad&pn=C19795120",
